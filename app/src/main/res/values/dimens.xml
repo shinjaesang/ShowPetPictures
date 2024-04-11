@@ -2,7 +2,7 @@
 <resources>
     <dimen name="textSizeSmall">10sp</dimen>
     <dimen name="textSizeMedium">20sp</dimen>
-    <dimen name="textSizeLarge">30p</dimen>
+    <dimen name="textSizeLarge">30dp</dimen>
     <dimen name="marginSmall">10dp</dimen>
     <dimen name="marginMedium">20dp</dimen>
     <dimen name="marginLarge">3dp</dimen>

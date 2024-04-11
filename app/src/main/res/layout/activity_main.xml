@@ -13,11 +13,12 @@
         android:text="@string/textSelect"
         android:textSize="@dimen/textSizeLarge"
         />
-    <CheckBox
+    <Switch
+        android:id="@+id/checkStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/checkStart"
-        android:textSize="@dimen/textSizeMedium"
+        android:textSize="@dimen/textSizeSmall"
         />
     <LinearLayout
         android:id="@+id/linearSub"
@@ -29,12 +30,13 @@
             android:layout_height="wrap_content"
             android:text="@string/textfavorite"
             android:textSize="@dimen/textSizeLarge"/>
-        <CheckBox
+
+<!--        <CheckBox
             android:id="@+id/checkStart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/checkStart"
-            android:textSize="@dimen/textSizeMedium"/>
+            android:textSize="@dimen/textSizeMedium"/>-->
         <RadioGroup
             android:id="@+id/rg"
             android:layout_width="wrap_content"
@@ -48,30 +50,49 @@
                 android:text="@string/radioPuppy"
                 android:textSize="@dimen/textSizeMedium"/>
             <RadioButton
-                android:id="@+id/Kitty"
+                android:id="@+id/radioKitty"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/radioKitty"
                 android:textSize="@dimen/textSizeMedium"/>
             <RadioButton
-                android:id="@+id/Snake"
+                android:id="@+id/radioSnake"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/radioSnake"
                 android:textSize="@dimen/textSizeMedium"/>
         </RadioGroup>
-        <Button
-            android:id="@+id/btnDone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/btnDone"
-            android:layout_margin="@dimen/textSizeMedium"/>
+
+<!--        처음에 버튼이  안 보이게 하려면 linearlayout 안에 작성-->
+<!--        <Button-->
+<!--            android:id="@+id/btnDone"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/btnDone"-->
+<!--            android:layout_margin="@dimen/textSizeMedium"/>-->
         <ImageView
             android:id="@+id/imgV"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/dog"
             android:scaleType="fitXY"/>
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnFinish"
+            android:textSize="@dimen/textSizeMedium"
+            android:layout_marginTop="@dimen/marginMedium"
+            />
+        <Button
+            android:id="@+id/btnInit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnInit"
+            android:textSize="@dimen/textSizeMedium"
+            android:layout_marginTop="@dimen/marginMedium"
+            />
     </LinearLayout>
 
 </LinearLayout>

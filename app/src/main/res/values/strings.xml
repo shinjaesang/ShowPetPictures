@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ShowPetPictures</string>
     <string name="textSelect">선택을 시작하시겠습니까?</string>
@@ -7,4 +8,6 @@
     <string name="radioKitty">고양이</string>
     <string name="radioSnake">뱀</string>
     <string name="btnDone">선택완료</string>
+    <string name="btnFinish">종료</string>
+    <string name="btnInit">처음으로</string>
 </resources>
